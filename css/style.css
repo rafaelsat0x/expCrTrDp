@@ -10,6 +10,7 @@ body {
     background: #2b3e49;
     height: 80px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-family: 'Quicksand', Arial, sans-serif;
 }
 
 .logo {
@@ -39,6 +40,7 @@ body {
     font-weight: 500;
     font-size: 1.6em;
     transition: color 0.2s;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
 }
 
 .nav-menu a:hover {
@@ -67,8 +69,12 @@ body {
 }
 
 .section1 p {
-    margin: 50px;
     color: white;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 0;
+    font-size: 1.2em;
 }
 
 .invisible {
@@ -101,14 +107,16 @@ body {
 }
 
 .section2-text p {
-    margin: 50;
+    margin: 0;
+    margin-top: 20px;
     text-align: left;
+    font-size: 1.2em;
 }
 
 .design2 {
     max-width: 40vw;
     height: auto;
     object-fit: contain;
-    margin-right: 20px;
     margin-top: 20px;
+    margin-right: 20px;
 }
