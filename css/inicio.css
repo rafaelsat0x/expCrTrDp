@@ -52,7 +52,14 @@ body {
 }
 
 .section1 img {
-    margin: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.section1 img,
+.design2 {
+    border: 3px solid #222;
+    border-radius: 16px;
 }
 
 .section1 {
