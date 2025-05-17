@@ -1,4 +1,114 @@
 body {
+    background-color: #273e62;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background: #2b3e49;
+    height: 80px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 65px;
+    margin-right: 16px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-left: 32px;
+}
+
+.nav-menu a {
+    text-decoration: none;
     color: white;
-    background-color: black;
+    font-weight: 500;
+    font-size: 1.6em;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: #88bbff;
+}
+
+.nome {
+    color: white
+}
+
+.section1 img {
+    margin: 20px;
+}
+
+.section1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.section1 h1 {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+
+.section1 p {
+    margin: 50px;
+    color: white;
+}
+
+.invisible {
+    opacity: 0;
+    width: 25%;
+}
+.invisible2 {
+    opacity: 0;
+    width: 15%;
+}
+
+.section2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.section2-text {
+    flex: 1;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.section2-text h1 {
+    text-align: left;
+    margin: 0 0 16px 0;
+}
+
+.section2-text p {
+    margin: 50;
+    text-align: left;
+}
+
+.design2 {
+    max-width: 40vw;
+    height: auto;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-top: 20px;
 }
