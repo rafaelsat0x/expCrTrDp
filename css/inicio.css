@@ -68,6 +68,16 @@ body {
     border-radius: 16px;
 }
 
+.section2 p,
+.section1 p {
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+.section2 h1,
+.section1 h1 {
+    font-family: 'Merriweather', Arial, sans-serif;
+}
+
 .section1 {
     display: flex;
     align-items: flex-start;
