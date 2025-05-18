@@ -1,3 +1,55 @@
 html, body {
     min-height: 100vh;
 }
+
+body {
+    background: linear-gradient(to bottom, #273e62 0%, #141d2d 100%);
+    color: white;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background: linear-gradient(to right, #2e394c, #0c1421);
+    height: 80px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    font-family: 'Quicksand', Arial, sans-serif;
+    border-radius: 16px;
+    border: 2px solid black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 65px;
+    margin-right: 16px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin-left: 32px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.6em;
+    transition: color 0.2s;
+    font-family: 'Roboto Condensed', Arial, sans-serif;
+}
+
+.nav-menu a:hover {
+    color: #88bbff;
+}
