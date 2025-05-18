@@ -1,5 +1,18 @@
 html, body {
+    height: 100%;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    margin-top: auto;
 }
 
 body {
@@ -52,4 +65,132 @@ body {
 
 .nav-menu a:hover {
     color: #88bbff;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap; /* Allow wrapping if not enough space */
+}
+
+.textValores {
+    font-family: 'Inter', Arial, sans-serif;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.webdesign,
+.designmarca,
+.designimpressao {
+    flex: 1 1 300px; /* Allow shrinking and set a min width */
+    min-width: 260px;
+    max-width: 350px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px; /* Add this line for spacing from the footer */
+    background: white;
+    color: #273e62;
+    border-radius: 16px;
+    padding: 32px 40px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border: 3px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 500px; /* Adjust as needed for your content */
+}
+
+.webdesign h1,
+.designmarca h1,
+.designimpressao h1 {
+    font-family: 'Merriweather', Arial, sans-serif;
+}
+
+.webdesign p,
+.designmarca p,
+.designimpressao p {
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+.precos {
+    margin: 5px 0;
+    background: #273e62;
+    color: white;
+    border-radius: 6px;
+    padding: 2px 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border: 2px solid #222;
+    width: fit-content;
+    font-size: 1.3em;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.fotos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: auto;
+}
+
+footer {
+    background: #0c1421;
+    color: white;
+    width: 100%;
+    padding: 24px 0 12px 0; /* Reduced padding */
+    box-sizing: border-box;
+}
+
+.footer, .footer-content, .footer-social, .footer-rights {
+    color: inherit;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    gap: 40px;
+}
+
+.footer-rights {
+    flex: 1;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+.footer-content, .footer-social {
+    flex: 1;
+}
+
+.footer-content p {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+footer a {
+    font-family: 'Nunito', Arial, sans-serif;
+}
+
+.footer a,
+.footer-social a {
+    color: #88bbff;
+    text-decoration: none;
+}
+
+.footer a:hover,
+.footer-social a:hover {
+    text-decoration: underline;
+}
+
+.footer-content h1,
+.footer-social h1 {
+    font-family: 'Merriweather', Arial, sans-serif;
 }
