@@ -1,23 +1,9 @@
 html, body {
-    height: 100%;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-footer {
-    margin-top: auto;
 }
 
 body {
     background: linear-gradient(to bottom, #273e62 0%, #141d2d 100%);
-    color: white;
 }
 
 .topbar {
@@ -65,6 +51,10 @@ body {
 
 .nav-menu a:hover {
     color: #88bbff;
+}
+
+.nome {
+    color: white
 }
 
 .servicos {
