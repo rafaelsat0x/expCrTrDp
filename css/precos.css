@@ -94,6 +94,7 @@ body {
 .designmarca p,
 .designimpressao p {
     font-family: 'Nunito', Arial, sans-serif;
+    font-size: 1.4em;
 }
 
 .precos {
@@ -107,4 +108,23 @@ body {
     width: fit-content;
     font-size: 1.3em;
     font-family: 'Inter', Arial, sans-serif;
+}
+
+.contratar-btn {
+    background: #273e62;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 24px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border: 2px solid #222;
+    font-size: 1.3em;
+    font-family: 'Inter', Arial, sans-serif;
+    cursor: pointer;
+    margin: 10px 0 0 0;
+    transition: background 0.2s, color 0.2s;
+}
+
+.contratar-btn:hover {
+    background: #35548a;
+    color: #fff;
 }
